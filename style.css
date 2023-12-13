@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+padding: 0;
+margin: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255); 
+}
+
+header nav{
+  background-color:rgb(166,0,0);
+    position: fixed;
+  width: 100%;
+  height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;  
+}
+nav .logo span{
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+nav .links ul a{
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 50px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+nav .links ul a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*main section*/
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color: rgb(93, 92, 92,1);
+}
+.main-section .main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 850px;
+    height: 280px;
+}
+.cont h2{
+    padding-left: 139px;
+    color: rgb(251, 251, 251);
+}
+.cont span{
+    color:rgb(166, 0, 0);
+}
+.discreption span{
+    color: rgb(166, 0, 0);
+    
+}
+.main-section .main-container .discreption{
+    color: aliceblue;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-section .img img{
+   border-radius: 50px;
+    width: 350px;
+}
+.main-section .img img:hover{
+    opacity: 50%;
+}
+ 
+/*education section*/
+
+.education-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color:rgb(61, 61, 61);
+}
+ 
+.education-section .degrees{
+    margin-left: 100px;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+.education-section .imge img{
+   border-radius: 50px;
+   width: 400px; 
+   margin-left: 40px;
+}
+.education-section .imge img:hover{
+    opacity: 50%;
+}
+
+/*contact-me section*/
+.contact-me-section{
+    background-color: rgb(93, 92, 92,1);
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+}
+
+form input,textarea{
+    margin-top: 30px;
+    width: 300px;
+    padding: 20px 15px;
+    display: block;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.cont{
+    padding-top: 70px;
+    font-size: xx-large;
+}
+
+.icon{
+    width: 38px;
+    border-radius: 10px;
+    float: right;
+    margin: 22px 20px 0px 20px; 
+
+}
+.icon:hover{
+    opacity: 50%;
+}
+
+footer{
+    width: auto;
+    height: 30px;
+    background-color: rgb(166, 0, 0);
+    color: #000;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.rights{
+color: #ffffff;
+font-size: 20px;
+}
+.rights:hover{
+    color: #000;
+}
